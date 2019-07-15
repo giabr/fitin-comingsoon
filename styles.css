@@ -1,19 +1,21 @@
+body{
+    background-color:#5ac8d8 !important;
+}
+
 .parallax {
     padding: 100px 0;
-    background-color:#5ac8d8;
     /* color: #4A96A8;
     color: #004E56;
     color: #DADCDD; */
 }
 
-#sosmed{
-    color: #5ac8d8;
-    font-size: 32px;
+.sosmed{
+    color: white;
+    font-size: 24px;
     text-align: center;
-    position: relative;
 }
 
-.icon-sosmed{
+.center-ver-hor{
     margin: 0;
     position: absolute;
     top: 50%;
@@ -22,8 +24,24 @@
     transform: translate(-50%, -50%);
 }
 
-#copyright{
-    text-align: center;
+.center-ver{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.nexa{
+    font-family: 'nexa';
+}
+
+.nf{
+    font-family: 'nf-takhiee'
+}
+
+.brandon{
+    font-family: 'brandon'
 }
 
 @font-face {
