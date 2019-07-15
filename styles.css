@@ -1,0 +1,51 @@
+.parallax {
+    padding: 100px 0;
+    background-color:#5ac8d8;
+    /* color: #4A96A8;
+    color: #004E56;
+    color: #DADCDD; */
+}
+
+#sosmed{
+    color: #5ac8d8;
+    font-size: 32px;
+    text-align: center;
+    position: relative;
+}
+
+.icon-sosmed{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#copyright{
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'nexa';
+    src: url('font/nexa_bold-webfont.woff2') format('woff2'),
+         url('font/nexa_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'brandon';
+    src: url('font/hvd_fonts_-_brandontext-light-webfont.woff2') format('woff2'),
+         url('font/hvd_fonts_-_brandontext-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nf-takhie';
+    src: url('font/takhie-free-regular-webfont.woff2') format('woff2'),
+         url('font/takhie-free-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
